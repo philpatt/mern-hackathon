@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import Widget from './Widget';
 
 class Home extends Component {
 	constructor(props){
 		super(props)
 		this.state={
 				zipCode: '',
-				weather:''
+				weather:{}
 		}
 		this.handleChange = this.handleChange.bind(this);
 		this.handleSubmit = this.handleSubmit.bind(this);
@@ -28,7 +29,7 @@ class Home extends Component {
   		}).then((json) => {
   			console.log('response json is', json);
 
-  			base.setState({ weather: json.name});
+  			base.setState({ weather: json});
 
 
     		console.log('weather state', this.state.weather);
@@ -52,5 +53,6 @@ class Home extends Component {
 			</div>
     	)
 	}
+}
 
 export default Home;
