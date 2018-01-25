@@ -44,7 +44,7 @@ const DescWidget = props => {
 
 	} else {
 		return(
-				<div>What should you wear?</div>
+				<div> </div>
 			)
 	}
 }
@@ -53,7 +53,10 @@ class HotOutfit extends Component {
 	render(){
 		return(
 			<div className='outfit'> 
-				<h2>no shirt, no shoes, BEACH!</h2>
+				<h2>No shirt, No shoes, Hit the BEACH!
+				<br /> Assuming you live near one. 
+				</h2>
+
 				<img src='./img/sunnyoutfit.jpg' />
 			</div>
 		)
@@ -62,8 +65,10 @@ class HotOutfit extends Component {
 class WarmOutfit extends Component {
 	render(){
 		return(
-			<div>
-				<h2>Pants, long sleeve, litght jacket</h2>
+			<div className='outfit'>
+				<h2>Pants, long sleeve, light jacket.
+				<br /> You should survive.
+				</h2>
 			</div>
 		)
 	}
@@ -71,8 +76,10 @@ class WarmOutfit extends Component {
 class ChillyOutfit extends Component {
 	render(){
 		return(
-			<div>
-				<h2>favorite sweater for sure, propbably an insulated jacket too</h2>
+			<div className='outfit'>
+				<h2>Favorite sweater for sure, 
+				<br />
+				Probably an insulated jacket too.</h2>
 			</div>
 		)
 	}
@@ -80,8 +87,10 @@ class ChillyOutfit extends Component {
 class ColdOutfit extends Component {
 	render(){
 		return(
-			<div>
-				<h2>no long johns, but you could wear them if you want</h2>
+			<div className='outfit'>
+				<h2>No long johns needed, 
+				<br />
+				But you could wear them if you want.</h2>
 			</div>
 		)
 	}
@@ -89,8 +98,10 @@ class ColdOutfit extends Component {
 class FreezingOutfit extends Component {
 	render(){
 		return(
-			<div>
-				<h2>holy crap its cold, wear everything you own</h2>
+			<div className='outfit'>
+				<h2>Holy crap its cold, 
+				<br />
+				wear everything you own.</h2>
 				<img src='./img/freezingcold.jpg' />
 			</div>
 		)

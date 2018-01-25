@@ -45,19 +45,25 @@ class Home extends Component {
   	render () {
 
     	return (
-    		<div>
-    		<Widget weather={ this.state.weather } />
-    		<DescWidget weather={this.state.weather } />
-    		<JacketWidget weather={this.state.weather} />
+    		<div className="homeWidget">
+    		<div className="description">
+    		When traveling across the US have you ever asked yourself.
+			<br />	
+			What is the weather there like?
+				<br />			
+			Should I bring a rain coat? 
+    		</div>
 	    		<form onSubmit={ this.handleSubmit }>
 						<label>
-							<p>Please enter your zip code for the weather: </p>
+							<p>
+							Please enter your zip code for the weather: </p>
 							<input type="text"  onChange={this.handleChange} />
 						</label>
 						<input type="submit" value="Get my forecast!" />
 					</form>
-    		}
-    		
+			<Widget weather={ this.state.weather } />
+    		<DescWidget weather={this.state.weather } />
+    		<JacketWidget weather={this.state.weather} />
 			</div>
     	)
 	}
