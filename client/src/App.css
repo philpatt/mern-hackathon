@@ -1,8 +1,8 @@
 /* CUSTOM STYLES */
 nav {
-  background-image: repeating-linear-gradient(#ff3300, #ffcc66);
+  background-image: repeating-linear-gradient(#ffcc66, #f45342);
   padding: 20px 0;
-  border-style: solid;
+
 }
 
 nav a {
@@ -19,7 +19,7 @@ nav a:hover {
 }
 
 .footer {
-  background-color: #ffcc66;
+  background-color: #f45342;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -37,7 +37,7 @@ nav a:hover {
 
 .btn-primary {
   color: #fff;
-  background-image:linear-gradient(grey, blue, red);
+  background-image:linear-gradient(#ff3300, yellow, grey);
   border-radius: 2px;
   border: none;
   padding: 3px;
@@ -85,12 +85,13 @@ nav a:hover {
 }
 
 .App-header {
-  background-image:linear-gradient(red, yellow, grey);
+  background-image: linear-gradient(#f45342, #ffcc66);
 
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 50px;
+  font-family: monospace;
 
 
 }
