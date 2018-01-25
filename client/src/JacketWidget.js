@@ -82,9 +82,7 @@ class Thunder extends Component {
 	render(){
 		return(
 			<div className="jacketWidget">
-				<h2>There's a thunderstorm out there! 
-				<br /> 
-				Wear a Rain Coat</h2>
+				<h2>Should I wear a Rain jacket?: YES</h2>
 
 			</div>
 		)
@@ -94,9 +92,7 @@ class Drizzle extends Component {
 	render(){
 		return(
 			<div className="jacketWidget">
-				<h2>Its just drizzling 
-				<br /> Make sure to wear a Rain jacket.
-				</h2>
+				<h2>Should I wear a Rain jacket?: YES</h2>
 			</div>
 		)
 	}
@@ -105,7 +101,7 @@ class Rain extends Component {
 	render(){
 		return(
 			<div className="jacketWidget">
-				<h2>Its raining definitely wear a jacket.</h2>
+				<h2>Should I wear a Rain jacket?: YES</h2>
 			</div>
 		)
 	}
@@ -114,9 +110,7 @@ class Snow extends Component {
 	render(){
 		return(
 			<div className="jacketWidget">
-				<h2>Its snowing!! 
-				<br /> 
-				You should wear a thick jacket...</h2>
+				<h2>Should I wear a Rain jacket?: YES</h2>
 			</div>
 		)
 	}
@@ -125,8 +119,9 @@ class Clouds extends Component {
 	render(){
 		return(
 			<div className="jacketWidget">
-				<h2>Just cloudy, no rain though...
-				</h2>
+				<h2>Should I wear a Rain jacket?: Maybe... 
+				<br />
+				It is only cloudy</h2>
 			</div>
 		)
 	}
@@ -150,7 +145,7 @@ class Clear extends Component {
 	render(){
 		return(
 			<div className="jacketWidget">
-				<h2>Its beautiful out!</h2>
+				<h2>Should I wear a Rain jacket?: No</h2>
 			</div>
 		)
 	}
@@ -159,8 +154,7 @@ class Atmostphere extends Component {
 	render(){
 		return(
 			<div className="jacketWidget">
-				<h2>You will be okay,
-				<br /> Without a Jacket</h2>
+				<h2>Should I wear a Rain jacket?: No</h2>
 
 			</div>
 		)
@@ -170,10 +164,10 @@ class Additional extends Component {
 	render(){
 		return(
 			<div className="jacketWidget">
-				<h2>Holy crap its cold, 
-					<br /> 
-				Wear everything you own</h2>
-
+				<h2>Should I wear a Rain jacket?: YES
+					<br />
+					Possibly every jacket you own. 
+				</h2>
 			</div>
 		)
 	}
