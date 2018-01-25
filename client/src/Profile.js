@@ -11,7 +11,7 @@ class Profile extends Component {
         </div>);
     }
     else {
-      return (<p>This is a profile page. You need to be logged in to view it.</p>);
+      return (<p>Must be logged in to view page!</p>);
     }
   }
 }
