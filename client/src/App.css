@@ -1,7 +1,8 @@
 /* CUSTOM STYLES */
 nav {
-  background-color: yellow;
-  padding: 10px 0;
+  background-image: repeating-linear-gradient(#ff3300, #ffcc66);
+  padding: 20px 0;
+  border-style: solid;
 }
 
 nav a {
@@ -9,16 +10,17 @@ nav a {
   text-align: center;
   text-decoration: none;
   font-size: 18px;
-  color: blue;
+  color: black;
+  font-family: monospace;
 }
 
 nav a:hover {
-  color: #7f4dd2;
+  color: yellow;
 }
 
 .footer {
-  background-color: white;
-  position: absolute;
+  background-color: #ffcc66;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 20px;
@@ -35,7 +37,7 @@ nav a:hover {
 
 .btn-primary {
   color: #fff;
-  background-color: black;
+  background-image:linear-gradient(grey, blue, red);
   border-radius: 2px;
   border: none;
   padding: 3px;
@@ -83,17 +85,14 @@ nav a:hover {
 }
 
 .App-header {
-  background-color: orange;
-  border-style: ridge;
-  border-color: black;
-  height: 150px;
-  padding: 55px;
-  color: black;
-  font-family: impact;
+  background-image:linear-gradient(red, yellow, grey);
+
 }
 
 .App-title {
   font-size: 1.5em;
+
+
 }
 
 .App-intro {
