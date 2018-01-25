@@ -126,7 +126,7 @@ class Clouds extends Component {
 		return(
 			<div className="jacketWidget">
 				<h2>Just cloudy, no rain though...
-				<br /> Might want an extra layer.</h2>
+				</h2>
 			</div>
 		)
 	}

@@ -57,7 +57,6 @@ class HotOutfit extends Component {
 				<br /> Assuming you live near one. 
 				</h2>
 
-				<img src='./img/sunnyoutfit.jpg' />
 			</div>
 		)
 	}
@@ -102,7 +101,7 @@ class FreezingOutfit extends Component {
 				<h2>Holy crap its cold, 
 				<br />
 				wear everything you own.</h2>
-				<img src='./img/freezingcold.jpg' />
+				
 			</div>
 		)
 	}
