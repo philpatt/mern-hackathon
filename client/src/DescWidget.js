@@ -98,7 +98,7 @@ class FreezingOutfit extends Component {
 	render(){
 		return(
 			<div className='outfit'>
-				<h2>Holy crap its cold, 
+				<h2>Holy crap its cold. 
 				</h2>
 				
 			</div>

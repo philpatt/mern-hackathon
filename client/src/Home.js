@@ -47,9 +47,9 @@ class Home extends Component {
     	return (
     		<div className="homeWidget">
     		<div className="description">
-    		When traveling across the US have you ever asked yourself.
+    		Upon waking up have you ever asked yourself...
 			<br />	
-			What is the weather there like?
+			What is the weather like today?
 				<br />			
 			Should I bring a rain coat? 
     		</div>
