@@ -1,7 +1,7 @@
 /* CUSTOM STYLES */
 nav {
   background-color: yellow;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 nav a {
@@ -78,17 +78,18 @@ nav a:hover {
   border-radius: 2px;
   float: right;
 }
-
-/* DEFAULT STYLES FROM CREATE REACT APP MODULE */
 .App {
   text-align: center;
 }
 
 .App-header {
-  background-color: grey;
+  background-color: orange;
+  border-style: ridge;
+  border-color: black;
   height: 150px;
   padding: 55px;
-  color: white;
+  color: black;
+  font-family: impact;
 }
 
 .App-title {

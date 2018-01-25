@@ -19,7 +19,6 @@ const Widget = props => {
 	  return(
 	 	<div className="weatherWidget">
         	<div>Your City is: {props.weather.name}</div>
-        	<div>Today's Temperature Stats...</div>
         	<div>Actual Temperature: {kTemp} </div>
         	<div>High Today: {kMax}</div>
         	<div>Low Today: {kMin}</div>
@@ -28,7 +27,7 @@ const Widget = props => {
 	  }	else {
 	  	return (
 	  		<div>
-	  			<p>Display Your Weather Results</p>
+				<img src="https://media.giphy.com/media/10d3NDzD40xb0s/giphy.gif" alt="Happy Sun" />
 	  		</div>
 	  	)
 	  }
