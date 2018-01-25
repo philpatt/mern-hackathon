@@ -73,7 +73,7 @@ const JacketWidget = props => {
 			} 
 	} else {
 		return(
-				<div>Should you wear a jacket?</div>
+				<div> </div>
 			)
 	}
 }
@@ -81,8 +81,10 @@ class Thunder extends Component {
 
 	render(){
 		return(
-			<div>
-				<h2>its thuderstorming, where a jacket</h2>
+			<div className="jacketWidget">
+				<h2>There's a thunderstorm out there! 
+				<br /> 
+				Wear a Rain Coat</h2>
 
 			</div>
 		)
@@ -91,8 +93,10 @@ class Thunder extends Component {
 class Drizzle extends Component {
 	render(){
 		return(
-			<div>
-				<h2>Its just drizzling so wear something waterproof</h2>
+			<div className="jacketWidget">
+				<h2>Its just drizzling 
+				<br /> Make sure to wear a Rain jacket.
+				</h2>
 			</div>
 		)
 	}
@@ -100,8 +104,8 @@ class Drizzle extends Component {
 class Rain extends Component {
 	render(){
 		return(
-			<div>
-				<h2>Its raining definitely wear a jacket</h2>
+			<div className="jacketWidget">
+				<h2>Its raining definitely wear a jacket.</h2>
 			</div>
 		)
 	}
@@ -109,8 +113,10 @@ class Rain extends Component {
 class Snow extends Component {
 	render(){
 		return(
-			<div>
-				<h2>Its snowing!! you should wear a jacket...</h2>
+			<div className="jacketWidget">
+				<h2>Its snowing!! 
+				<br /> 
+				You should wear a thick jacket...</h2>
 			</div>
 		)
 	}
@@ -118,8 +124,9 @@ class Snow extends Component {
 class Clouds extends Component {
 	render(){
 		return(
-			<div>
-				<h2>Just cloudy, no rain though...</h2>
+			<div className="jacketWidget">
+				<h2>Just cloudy, no rain though...
+				<br /> Might want an extra layer.</h2>
 			</div>
 		)
 	}
@@ -127,8 +134,14 @@ class Clouds extends Component {
 class Extreme extends Component {
 	render(){
 		return(
-			<div>
-				<h2>There is some EXTREME weather happening outside, why are you worried about a jacket right now, hurry up and save your family... seriosuly close this app</h2>
+			<div className="jacketWidget">
+				<h2>There is some EXTREME weather happening outside,
+				<br /> 
+				Why are you worried about a jacket right now, 
+				<br /> 
+				Hurry up and save your family... 
+				<br /> 
+				Seriosuly, why are you on the internet right now?</h2>
 			</div>
 		)
 	}
@@ -136,7 +149,7 @@ class Extreme extends Component {
 class Clear extends Component {
 	render(){
 		return(
-			<div>
+			<div className="jacketWidget">
 				<h2>Its beautiful out!</h2>
 			</div>
 		)
@@ -145,8 +158,9 @@ class Clear extends Component {
 class Atmostphere extends Component {
 	render(){
 		return(
-			<div>
-				<h2>Youre good, no jacket..</h2>
+			<div className="jacketWidget">
+				<h2>You will be okay,
+				<br /> Without a Jacket</h2>
 
 			</div>
 		)
@@ -155,8 +169,10 @@ class Atmostphere extends Component {
 class Additional extends Component {
 	render(){
 		return(
-			<div>
-				<h2>holy crap its cold, wear everything you own</h2>
+			<div className="jacketWidget">
+				<h2>Holy crap its cold, 
+					<br /> 
+				Wear everything you own</h2>
 
 			</div>
 		)
