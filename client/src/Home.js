@@ -32,12 +32,8 @@ class Home extends Component {
   			return response.json()
   		}).then((json) => {
   			console.log('response json is', json);
-
   			base.setState({ weather: json});
-
-
     		console.log('weather state', this.state.weather);
-
   		}).catch((ex) => {
   			console.log('an error occured while parsing!' ,ex);
   		})
@@ -61,9 +57,9 @@ class Home extends Component {
 						</label>
 						<input type="submit" value="Get my forecast!" />
 					</form>
-			<Widget weather={ this.state.weather } />
-    		<DescWidget weather={this.state.weather } />
-    		<JacketWidget weather={this.state.weather} />
+				<Widget weather={ this.state.weather } />
+        		<DescWidget weather={this.state.weather } />
+        		<JacketWidget weather={this.state.weather} />
 			</div>
     	)
 	}
