@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Widget from './Widget';
+import DescWidget from './DescWidget';
+
 
 class Home extends Component {
 	constructor(props){
@@ -43,6 +45,7 @@ class Home extends Component {
     	return (
     		<div>
     		<Widget weather={ this.state.weather } />
+    		<DescWidget weather={this.state.weather } />
 	    		<form onSubmit={ this.handleSubmit }>
 						<label>
 							<p>Please enter your zip code for the weather: </p>
@@ -50,6 +53,7 @@ class Home extends Component {
 						</label>
 						<input type="submit" value="Get my forecast!" />
 					</form>
+    		
 			</div>
     	)
 	}
