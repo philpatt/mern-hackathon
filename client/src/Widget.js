@@ -16,12 +16,17 @@ const Widget = props => {
 		let kToF = kelvinToFahrenheit(parseInt(temp))
 		let kTemp = Math.round(kToF)
 
+		let icon = props.weather.weather[0].icon
+		let iconUrl = "http://openweathermap.org/img/w/" + icon + ".png"
+
 	  return(
 	 	<div className="weatherWidget">
         	<div>Your City is: {props.weather.name}</div>
         	<div>Actual Temperature: {kTemp} </div>
         	<div>High Today: {kMax}</div>
         	<div>Low Today: {kMin}</div>
+        	<div>{props.weather.weather[0].description}</div>
+        	<div><img src={iconUrl} alt="weather icon" /></div>
       	</div>
       	)
 	  }	else {
