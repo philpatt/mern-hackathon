@@ -99,8 +99,7 @@ class FreezingOutfit extends Component {
 		return(
 			<div className='outfit'>
 				<h2>Holy crap its cold, 
-				<br />
-				wear everything you own.</h2>
+				</h2>
 				
 			</div>
 		)
