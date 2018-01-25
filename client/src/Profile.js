@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Widget from './Widget';
+import DescWidget from './DescWidget';
 
 class Profile extends Component {
   render(){
