@@ -54,16 +54,19 @@ class Home extends Component {
 			Should I bring a rain coat? 
     		</div>
 	    		<form onSubmit={ this.handleSubmit }>
-						<label>
+						<label className="zipcode">
 							<p>
 							Please enter your zip code for the weather: </p>
-							<input type="text"  onChange={this.handleChange} />
+							
 						</label>
-						<input type="submit" value="Get my forecast!" />
+
+						<input type="text"  onChange={this.handleChange} />
+						<input  type="submit" value="Get my forecast!" />
 					</form>
+			<JacketWidget weather={this.state.weather} />
 			<Widget weather={ this.state.weather } />
     		<DescWidget weather={this.state.weather } />
-    		<JacketWidget weather={this.state.weather} />
+    		
 			</div>
     	)
 	}

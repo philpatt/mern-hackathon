@@ -18,9 +18,13 @@ nav a:hover {
   color: yellow;
 }
 
+.zipcode{
+  padding-right: 10px;
+}
+
 .jacketWidget{
   border: 2px solid black;
-  margin: 70px;
+  margin: 25px 100px;
   
 }
 
@@ -34,18 +38,17 @@ nav a:hover {
 
 .weatherWidget{
   border: 2px solid black;
-  margin: 70px;
-  float: right;
+  margin: 25px 100px;
+  
   padding: 10px;
-  display:inline-block;
+  
 
 }
 
-.outfit {
-  padding: 10px;
+.outfit { 
   border: 2px solid black;
-  width: 200px;
-  height: 400px;
+  padding: 10px;
+  margin: 25px 100px;
 }
 
 .outfit img{
